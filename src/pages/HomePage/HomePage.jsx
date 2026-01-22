@@ -1,3 +1,5 @@
-export const HomePage = () =>{ // только сборка блоков
-    return(<div>Главная страница</div>)
+export const HomePage = () => {
+    return(<div>
+        <HeaderModule/>
+    </div>)
 }
